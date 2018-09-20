@@ -12,5 +12,5 @@ pip install -r requirements.txt </br >
 python run_application.py </br >
 ngrok http [port_number] </br >
 
-Copy one of the forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN". Text your Twilio
-number and you should get a response.
+Copy one of the forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN".  </br >
+Text your Twilio number and you should get a response.
