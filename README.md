@@ -8,9 +8,9 @@ phone number messages and get answers back. The Twilio library allows for you to
 will connect your local host running program to the World Wide Web and will provide an http address. Twilio will use this address to send you incoming messages.
 
 ### Program Execution
-pip install -r requirements.txt
-python run_application.py
-ngrok http [port_number]
+pip install -r requirements.txt </br >
+python run_application.py </br >
+ngrok http [port_number] </br >
 
 Copy one of the forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN". Text your Twilio
 number and you should get a response.
