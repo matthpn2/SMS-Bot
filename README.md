@@ -3,9 +3,9 @@ An SMS bot that obtains information you want without the need for a strong netwo
 
 ### Program Overview
 This program is an SMS bot built using Python and Twilio API [ https://www.twilio.com/ ], which allows you to send a Twilio 
-phone number messages and get answers back. The Twilio library allows for you to send and receive messages, while Flask 
-allows your program to connect to a local server. Furthermore, Ngrok will connect your local host running program to the
-World Wide Web and will provide an http address. Twilio will use this address to send you incoming messages.
+phone number messages and get answers back. The Twilio library allows for you to send and receive messages, while Flask
+[ http://flask.pocoo.org/ ] allows your program to connect to a local server. Furthermore, Ngrok [ https://ngrok.com/ ] 
+will connect your local host running program to the World Wide Web and will provide an http address. Twilio will use this address to send you incoming messages.
 
 ### Program Execution
 pip install -r requirements.txt
