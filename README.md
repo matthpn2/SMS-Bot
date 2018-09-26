@@ -14,4 +14,9 @@ ngrok http [port_number] </br >
 
 Copy one of the forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN".  </br >
 
-Text your Twilio number and you should get a response.
+Text your Twilio number with one of the following commands and you should get a response:
+  
+  WIKI ["wikipedia request"] </br >
+  WEATHER ["city name"] </br >
+  WOLFRAM ["wolframalpha request"] </br >
+
