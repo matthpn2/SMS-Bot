@@ -2,7 +2,7 @@ from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import WolframAlphaAPI, OpenWeatherAPI, MapQuestAPI
 import wikipedia
-import urllib.request
+import urllib
 
 # Set up FLASK to connect this code to the local host, later to be connected to the Internet through NGROK
 app = Flask(__name__)
