@@ -9,7 +9,7 @@ will connect your local host running program to the World Wide Web and will prov
 
 ### Program Execution
 pip install -r requirements.txt </br >
-python run_application.py </br >
+python3 run_application.py </br >
 ngrok http [port_number] </br >
 
 Copy one of the forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN".  </br >
@@ -19,3 +19,4 @@ Text your Twilio number with one of the following commands and you should get a 
   WIKI ["insert wikipedia request"] </br >
   WEATHER ["insert city name"] </br >
   WOLFRAM ["insert wolframalpha request"] </br >
+  MAPQUEST ["insert locations request separated by new line"]
