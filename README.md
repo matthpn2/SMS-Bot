@@ -12,7 +12,7 @@ source ENV/bin/activate </br >
 python3 run_application.py </br >
 ngrok http [port_number] </br >
 
-Copy one of the http(s) forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN".  </br >
+Copy one of the http(s) forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN" and save the changes.  </br >
 
 Text your Twilio number with one of the following commands and you should get a response:
   
