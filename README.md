@@ -8,7 +8,7 @@ phone number messages and get answers back. The Twilio library allows for you to
 will connect your local host running program to the World Wide Web and will provide an http address. Twilio will use this address to send you incoming messages.
 
 ### Program Execution
-pip install -r requirements.txt </br >
+source ENV/bin/activate </br >
 python3 run_application.py </br >
 ngrok http [port_number] </br >
 
