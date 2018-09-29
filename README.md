@@ -9,7 +9,7 @@ will connect your local host running program to the World Wide Web and will prov
 
 ### Program Execution
 source ENV/bin/activate </br >
-python3 run_application.py </br >
+python3 run_applications.py </br >
 ngrok http ["insert port_number"] </br >
 
 Copy one of the http(s) forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN" and save the changes.  </br >
