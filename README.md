@@ -19,10 +19,10 @@ Copy one of the http(s) forwarding addresses into your Twilio dashboard where it
 
 Text your Twilio number with one of the following commands and you should get a response: </br >
 
-  WIKI ["insert wikipedia request"] </br >
-  WEATHER ["insert city name"] </br >
-  WOLFRAM ["insert wolframalpha request"] </br >
-  MAPQUEST ["insert locations request separated by new line"] </br>
+    WIKI ["insert wikipedia request"]
+    WEATHER ["insert city name"] 
+    WOLFRAM ["insert wolframalpha request"]
+    MAPQUEST ["insert locations request separated by new line"] 
 
 Otherwise, you'll get an error:
 
