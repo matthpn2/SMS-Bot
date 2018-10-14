@@ -20,13 +20,4 @@ Copy one of the http(s) forwarding addresses into your Twilio dashboard where it
     WIKI ["insert wikipedia request"]
     WEATHER ["insert city name"] 
     WOLFRAM ["insert wolframalpha request"]
-    MAPQUEST ["insert locations request separated by new line"] 
-
-Otherwise, you'll get an error:
-
-  ![error command](https://i.imgur.com/9Zsw1l1.png)
-
-
-
-
-
+    MAPQUEST ["insert locations request separated by new line"]
