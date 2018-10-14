@@ -2,12 +2,13 @@ from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import WolframAlphaAPI, OpenWeatherAPI, MapQuestAPI
 import wikipedia
-import urllib
 
 # Set up FLASK to connect this code to the local host, later to be connected to the Internet through NGROK
 app = Flask(__name__)
 
-@app.route('/', methods = ['POST'])
+
+@app.route('/', methods=['POST'])
+
 def sms():
     '''
         When a POST request is sent to the local host through NGROK ( which creates a tunnel to the Web ), this
@@ -93,6 +94,7 @@ def removeKeyWord(message, keyword):
         message = message[len(keyword):].strip()
     
     return message
+
 
 if __name__ == '__main__':
     app.run()
