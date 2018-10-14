@@ -23,13 +23,13 @@ Text your Twilio number with one of the following commands and you should get a 
   ![wiki command](https://i.imgur.com/xwaXrJE.png) </br>
   
   WEATHER ["insert city name"] </br >
-  ![weather command](https://i.imgur.com/qFkDgGG.png)
+  ![weather command](https://i.imgur.com/qFkDgGG.png) </br>
   
   WOLFRAM ["insert wolframalpha request"] </br >
-  ![wolfram command](https://i.imgur.com/P1rWJlW.png)
+  ![wolfram command](https://i.imgur.com/P1rWJlW.png) </br>
   
   MAPQUEST ["insert locations request separated by new line"]
-  ![mapquest command](https://i.imgur.com/2mNvmu2.png)
+  ![mapquest command](https://i.imgur.com/2mNvmu2.png) </br>
 
 Otherwise, you'll get an error:
 
