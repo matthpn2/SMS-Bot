@@ -18,9 +18,9 @@ ngrok http ["insert port_number"] </br >
 Copy one of the http(s) forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN" and save the changes.</br >
 
 Text your Twilio number with one of the following commands and you should get a response:
-  
+
   WIKI ["insert wikipedia request"] </br >
-  ![wiki command](https://i.imgur.com/xwaXrJE.png)
+  ![wiki command](https://i.imgur.com/xwaXrJE.png) </br>
   
   WEATHER ["insert city name"] </br >
   ![weather command](https://i.imgur.com/qFkDgGG.png)
