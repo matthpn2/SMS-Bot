@@ -10,10 +10,7 @@ will connect your local host running program to the World Wide Web and will prov
 ### Program Execution
 source ENV/bin/activate </br >
 python3 run_applications.py </br >
-![program execution](https://i.imgur.com/sAlBMZJ.png)
-
 ngrok http ["insert port_number"] </br >
-![server execution](https://i.imgur.com/ZlLxamu.png)
 
 Copy one of the http(s) forwarding addresses into your Twilio dashboard where it says "A MESSAGE COMES IN" and save the changes. Text your Twilio number with one of the following commands and you should get a response: </br >
 
@@ -21,3 +18,5 @@ Copy one of the http(s) forwarding addresses into your Twilio dashboard where it
     WEATHER ["insert city name"] 
     WOLFRAM ["insert wolframalpha request"]
     MAPQUEST ["insert locations request separated by new line"]
+    
+</br></br>
