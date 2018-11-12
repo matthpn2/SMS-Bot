@@ -1,6 +1,6 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-import WolframAlphaAPI, OpenWeatherAPI, MapQuestAPI
+import wolframalpha_api, openweather_api, mapquest_api
 import wikipedia
 
 # Set up FLASK to connect this code to the local host, later to be connected to the Internet through NGROK
@@ -47,8 +47,8 @@ def getReply(message):
         # Remove the keyword "weather" from the message
         message = removeKeyWord(message, "weather")
         try:
-            data = OpenWeatherAPI.fetchWeatherData(message)
-            answer = OpenWeatherAPI.outputWeatherData(data)
+            data = openweather_api.fetchWeatherData(message)
+            answer = openweather_api.outputWeatherData(data)
         except:
             answer = "There was an Open Weather Map Error. Please try again."
     
@@ -56,8 +56,8 @@ def getReply(message):
         # Remove the keyword "wolfram" from the message
         message = removeKeyWord(message, "wolfram")
         try:
-            data = WolframAlphaAPI.fetchWolframData(message)
-            answer = WolframAlphaAPI.outputWolframData(data)
+            data = wolframalpha_api.fetchWolframData(message)
+            answer = wolframalpha_api.outputWolframData(data)
         except:
             answer = "Request was NOT found using Wolfram Alpha. Please be more specific."
 
@@ -65,8 +65,8 @@ def getReply(message):
         # Remove the keyword "mapquest" from the message
         message = removeKeyWord(message, "mapquest")
         try:
-            data = MapQuestAPI.fetchMapData(message)
-            answer = MapQuestAPI.outputMapData(data)
+            data = mapquest_api.fetchMapData(message)
+            answer = mapquest_api.outputMapData(data)
         except:
             answer = "There was a MapQuest Error. Please try again."
     
