@@ -20,3 +20,5 @@ Copy one of the http(s) forwarding addresses into your Twilio dashboard where it
     MAPQUEST ["insert locations request separated by new line"]
     
 </br></br>
+
+![](display_smsbot.gif)
