@@ -9,7 +9,6 @@ def fetchWolframData(query):
     wolfram_api_key = 'VK9RKX-V2VJW282RE'
 
     build_wolfram_url = base_wolfram_url + 'appid=' + wolfram_api_key + '&input=' + query + '&output=json'
-
     return requests.get(build_wolfram_url).json()
 
 def outputWolframData(data):
